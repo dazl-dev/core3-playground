@@ -15,7 +15,7 @@
   "dependencies": {
     "@ampproject/remapping": "^2.3.0",
     "@file-services/commonjs": "^11.0.0",
-    "@file-services/path": "^11.0.0",
+    "@file-services/path": "^11.0.1",
     "@wixc3/postcss-modules": "^6.1.1",
     "idb": "^8.0.3",
     "js-base64": "^3.7.8",
