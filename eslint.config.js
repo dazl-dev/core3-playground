@@ -9,17 +9,16 @@ import { defineConfig, globalIgnores } from "eslint/config";
 export default defineConfig([
   globalIgnores(["dist/", "**/*.{js,mjs,cjs}"]),
   pluginJs.configs.recommended,
+  pluginReactHooks.configs.flat.recommended,
 
   ...pluginTypescript.configs.recommendedTypeChecked,
   { languageOptions: { parserOptions: { projectService: true } } },
 
-  { plugins: { "react-hooks": pluginReactHooks } },
   configPrettier,
 
   {
     rules: {
       "no-console": "error",
-      "react-hooks/rules-of-hooks": "error",
       "react-hooks/exhaustive-deps": "error",
       "@typescript-eslint/no-explicit-any": "off",
       "@typescript-eslint/no-namespace": "off",
