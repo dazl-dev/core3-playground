@@ -1,11 +1,13 @@
+// @ts-check
+
 import pluginJs from "@eslint/js";
 import configPrettier from "eslint-config-prettier";
 import pluginReactHooks from "eslint-plugin-react-hooks";
 import pluginTypescript from "typescript-eslint";
+import { defineConfig, globalIgnores } from "eslint/config";
 
-/** @type {import('eslint').Linter.Config[]} */
-export default [
-  { ignores: ["dist/", "**/*.{js,mjs,cjs}"] },
+export default defineConfig([
+  globalIgnores(["dist/", "**/*.{js,mjs,cjs}"]),
   pluginJs.configs.recommended,
 
   ...pluginTypescript.configs.recommendedTypeChecked,
@@ -25,4 +27,4 @@ export default [
       "@typescript-eslint/unbound-method": "off",
     },
   },
-];
+]);
