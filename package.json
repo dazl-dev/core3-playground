@@ -34,7 +34,7 @@
     "@types/react-dom": "^19.2.2",
     "@types/wicg-file-system-access": "^2023.10.7",
     "esbuild": "^0.25.11",
-    "eslint": "^9.37.0",
+    "eslint": "^9.38.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-react-hooks": "^7.0.0",
     "open": "^10.2.0",
