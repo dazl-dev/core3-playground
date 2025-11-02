@@ -13,6 +13,33 @@ const publicPath = new URL("../public/", import.meta.url);
 
 const alias = {
   "~sass/package.json": fileURLToPath(new URL("../node_modules/sass/package.json", import.meta.url)),
+  "monaco-editor/esm/vs/editor/edcore.main": fileURLToPath(
+    new URL("../node_modules/monaco-editor/esm/vs/editor/edcore.main.js", import.meta.url),
+  ),
+  "monaco-editor/esm/vs/basic-languages/_.contribution": fileURLToPath(
+    new URL("../node_modules/monaco-editor/esm/vs/basic-languages/_.contribution.js", import.meta.url),
+  ),
+  "monaco-editor/esm/vs/editor/editor.worker": fileURLToPath(
+    new URL("../node_modules/monaco-editor/esm/vs/editor/editor.worker.js", import.meta.url),
+  ),
+  "monaco-editor/esm/vs/language/css/monaco.contribution": fileURLToPath(
+    new URL("../node_modules/monaco-editor/esm/vs/language/css/monaco.contribution.js", import.meta.url),
+  ),
+  "monaco-editor/esm/vs/language/html/monaco.contribution": fileURLToPath(
+    new URL("../node_modules/monaco-editor/esm/vs/language/html/monaco.contribution.js", import.meta.url),
+  ),
+  "monaco-editor/esm/vs/language/json/monaco.contribution": fileURLToPath(
+    new URL("../node_modules/monaco-editor/esm/vs/language/json/monaco.contribution.js", import.meta.url),
+  ),
+  "monaco-editor/esm/vs/language/css/css.worker": fileURLToPath(
+    new URL("../node_modules/monaco-editor/esm/vs/language/css/css.worker.js", import.meta.url),
+  ),
+  "monaco-editor/esm/vs/language/html/html.worker": fileURLToPath(
+    new URL("../node_modules/monaco-editor/esm/vs/language/html/html.worker.js", import.meta.url),
+  ),
+  "monaco-editor/esm/vs/language/json/json.worker": fileURLToPath(
+    new URL("../node_modules/monaco-editor/esm/vs/language/json/json.worker.js", import.meta.url),
+  ),
 };
 
 /** @type {import('esbuild').BuildOptions} */

@@ -1,5 +1,5 @@
 import * as monaco from "monaco-editor/esm/vs/editor/edcore.main";
-import "monaco-editor/esm/vs/basic-languages/monaco.contribution";
+import "monaco-editor/esm/vs/basic-languages/_.contribution";
 import "monaco-editor/esm/vs/language/css/monaco.contribution";
 import "monaco-editor/esm/vs/language/html/monaco.contribution";
 import "monaco-editor/esm/vs/language/json/monaco.contribution";
@@ -38,7 +38,7 @@ void (async () => {
     const catalogResponse = await fetch(schemaStoreCatalogURL);
     if (catalogResponse.ok) {
       const { schemas } = (await catalogResponse.json()) as SchemaStoreCatalog;
-      monaco.languages.json.jsonDefaults.setDiagnosticsOptions({
+      monaco.json.jsonDefaults.setDiagnosticsOptions({
         enableSchemaRequest: true,
         schemas: schemas.map(({ url, fileMatch }) => ({ uri: url, fileMatch: fileMatch! })),
       });
