@@ -1,8 +1,8 @@
-import * as monaco from "monaco-editor/esm/vs/editor/edcore.main";
-import "monaco-editor/esm/vs/basic-languages/monaco.contribution";
-import "monaco-editor/esm/vs/language/css/monaco.contribution";
-import "monaco-editor/esm/vs/language/html/monaco.contribution";
-import "monaco-editor/esm/vs/language/json/monaco.contribution";
+import * as monaco from "monaco-editor/esm/vs/editor/edcore.main.js";
+import "monaco-editor/esm/vs/basic-languages/monaco.contribution.js";
+import "monaco-editor/esm/vs/language/css/monaco.contribution.js";
+import "monaco-editor/esm/vs/language/html/monaco.contribution.js";
+import "monaco-editor/esm/vs/language/json/monaco.contribution.js";
 import {
   monacoCssWorkerBundle,
   monacoGenericWorkerBundle,
