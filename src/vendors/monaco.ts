@@ -1,8 +1,4 @@
-import * as monaco from "monaco-editor/esm/vs/editor/edcore.main.js";
-import "monaco-editor/esm/vs/basic-languages/monaco.contribution.js";
-import "monaco-editor/esm/vs/language/css/monaco.contribution.js";
-import "monaco-editor/esm/vs/language/html/monaco.contribution.js";
-import "monaco-editor/esm/vs/language/json/monaco.contribution.js";
+import * as monaco from "monaco-editor";
 import {
   monacoCssWorkerBundle,
   monacoGenericWorkerBundle,
@@ -38,7 +34,7 @@ void (async () => {
     const catalogResponse = await fetch(schemaStoreCatalogURL);
     if (catalogResponse.ok) {
       const { schemas } = (await catalogResponse.json()) as SchemaStoreCatalog;
-      monaco.languages.json.jsonDefaults.setDiagnosticsOptions({
+      monaco.json.jsonDefaults.setDiagnosticsOptions({
         enableSchemaRequest: true,
         schemas: schemas.map(({ url, fileMatch }) => ({ uri: url, fileMatch: fileMatch! })),
       });

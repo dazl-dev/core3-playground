@@ -8,10 +8,6 @@ declare module "*.svg" {
   export default urlToFile;
 }
 
-declare module "monaco-editor/esm/vs/editor/edcore.main.js" {
-  export * from "monaco-editor";
-}
-
 declare module "~sass/package.json" {
   export const version: string;
 }

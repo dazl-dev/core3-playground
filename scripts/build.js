@@ -87,6 +87,18 @@ async function buildVendors() {
     minify: !isWatch,
     sourcemap: isWatch,
     alias,
+    plugins: [
+      {
+        name: "remove-typescript-contribution-file",
+        setup(build) {
+          build.onResolve({ filter: /language\/typescript\/monaco\.contribution\.js$/ }, (args) => ({
+            path: args.path,
+            namespace: "empty",
+          }));
+          build.onLoad({ filter: /.*/, namespace: "empty" }, () => ({ contents: "", loader: "empty" }));
+        },
+      },
+    ],
   });
 }
 
