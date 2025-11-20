@@ -20,7 +20,7 @@
     "idb": "^8.0.3",
     "js-base64": "^3.7.8",
     "mime": "^4.1.0",
-    "monaco-editor": "^0.55.0-dev-20251107",
+    "monaco-editor": "0.55.0-dev-20251107",
     "postcss": "^8.5.6",
     "postcss-scss": "^4.0.9",
     "postcss-value-parser": "^4.2.0",
@@ -39,7 +39,7 @@
     "eslint-plugin-react-hooks": "^7.0.1",
     "open": "^11.0.0",
     "prettier": "^3.6.2",
-    "sass": "^1.94.1",
+    "sass": "^1.94.2",
     "type-fest": "^5.2.0",
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.47.0"
