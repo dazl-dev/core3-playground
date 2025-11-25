@@ -21,6 +21,7 @@ export default defineConfig([
       "no-console": "error",
       "react-hooks/exhaustive-deps": "error",
       "@typescript-eslint/no-explicit-any": "off",
+      "@typescript-eslint/no-redundant-type-constituents": "off",
       "@typescript-eslint/no-namespace": "off",
       "@typescript-eslint/no-unused-vars": ["error", { argsIgnorePattern: "^_", varsIgnorePattern: "^_" }],
       "@typescript-eslint/unbound-method": "off",
