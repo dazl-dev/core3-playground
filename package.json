@@ -38,7 +38,7 @@
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-react-hooks": "^7.0.1",
     "open": "^11.0.0",
-    "prettier": "^3.7.2",
+    "prettier": "^3.7.3",
     "sass": "^1.94.2",
     "type-fest": "^5.2.0",
     "typescript": "~5.9.3",
