@@ -1,6 +1,6 @@
 import path from "@file-services/path";
 import type { Compilation, InitializeOptions } from "./compilation-worker";
-import { compilationBundleName, compilationWorkerName, defaultCompilationWorkerCount, wixUnpkgURL } from "./constants";
+import { compilationBundleName, compilationWorkerName, defaultCompilationWorkerCount, jsDelivrURL } from "./constants";
 import { findUp } from "./fs/async-fs-operations";
 import { createBrowserFileSystem } from "./fs/browser-file-system";
 import { fetchText } from "./helpers/dom";
@@ -153,7 +153,7 @@ async function calculateModuleGraph(
 }
 
 function unpkgUrlFor(packageName: string, packageVersion: string, pathInPackage: string): URL {
-  return new URL(`${packageName}@${packageVersion}/${pathInPackage}`, wixUnpkgURL);
+  return new URL(`${packageName}@${packageVersion}/${pathInPackage}`, jsDelivrURL);
 }
 
 function specifierNeedsCjs(specifier: string): boolean {
