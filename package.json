@@ -47,5 +47,10 @@
   },
   "keywords": [],
   "author": "Dazl",
-  "license": "MIT"
+  "license": "MIT",
+  "overrides": {
+    "monaco-editor": {
+      "dompurify": "^3.3.2"
+    }
+  }
 }
