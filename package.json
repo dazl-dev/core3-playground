@@ -43,7 +43,7 @@
     "sass": "^1.98.0",
     "type-fest": "^5.4.4",
     "typescript": "~5.9.3",
-    "typescript-eslint": "^8.57.0"
+    "typescript-eslint": "^8.57.1"
   },
   "keywords": [],
   "author": "Dazl",
