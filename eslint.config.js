@@ -12,7 +12,7 @@ export default defineConfig([
   pluginReactHooks.configs.flat.recommended,
 
   ...pluginTypescript.configs.recommendedTypeChecked,
-  { languageOptions: { parserOptions: { projectService: true } } },
+  { languageOptions: { parserOptions: { projectService: true, warnOnUnsupportedTypeScriptVersion: false } } },
 
   configPrettier,
 

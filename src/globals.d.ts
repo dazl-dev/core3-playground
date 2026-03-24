@@ -3,6 +3,11 @@ declare module "*.module.css" {
   export default classNames;
 }
 
+declare module "*.css" {
+  const classNames: never;
+  export default classNames;
+}
+
 declare module "*.svg" {
   const urlToFile: string;
   export default urlToFile;
