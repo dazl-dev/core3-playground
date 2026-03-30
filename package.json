@@ -43,17 +43,14 @@
     "sass": "^1.98.0",
     "type-fest": "^5.5.0",
     "typescript": "~6.0.2",
-    "typescript-eslint": "^8.57.2"
+    "typescript-eslint": "^8.58.0"
   },
   "keywords": [],
   "author": "Dazl",
   "license": "MIT",
   "overrides": {
     "monaco-editor": {
-      "dompurify": "^3.3.2"
-    },
-    "typescript-eslint": {
-      "typescript": "~6.0.2"
+      "dompurify": "^3.3.3"
     }
   }
 }
