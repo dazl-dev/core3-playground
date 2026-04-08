@@ -24,8 +24,8 @@
     "postcss": "^8.5.9",
     "postcss-scss": "^4.0.9",
     "postcss-value-parser": "^4.2.0",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4"
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
