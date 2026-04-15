@@ -37,7 +37,7 @@
     "esbuild": "^0.28.0",
     "eslint": "^10.2.0",
     "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-react-hooks": "7.1.0-canary-1b45e243-20260402",
+    "eslint-plugin-react-hooks": "7.1.0-canary-56824423-20260414",
     "open": "^11.0.0",
     "prettier": "^3.8.3",
     "sass": "^1.99.0",
