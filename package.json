@@ -39,7 +39,7 @@
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-react-hooks": "7.1.0-canary-1b45e243-20260402",
     "open": "^11.0.0",
-    "prettier": "^3.8.2",
+    "prettier": "^3.8.3",
     "sass": "^1.99.0",
     "type-fest": "^5.5.0",
     "typescript": "~6.0.2",
@@ -50,7 +50,7 @@
   "license": "MIT",
   "overrides": {
     "monaco-editor": {
-      "dompurify": "^3.3.3"
+      "dompurify": "^3.4.0"
     }
   }
 }
