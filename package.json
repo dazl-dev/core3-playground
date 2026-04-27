@@ -21,7 +21,7 @@
     "js-base64": "^3.7.8",
     "mime": "^4.1.0",
     "monaco-editor": "^0.55.1",
-    "postcss": "^8.5.10",
+    "postcss": "^8.5.12",
     "postcss-scss": "^4.0.9",
     "postcss-value-parser": "^4.2.0",
     "react": "^19.2.5",
@@ -50,7 +50,7 @@
   "license": "MIT",
   "overrides": {
     "monaco-editor": {
-      "dompurify": "^3.4.0"
+      "dompurify": "^3.4.1"
     }
   }
 }
