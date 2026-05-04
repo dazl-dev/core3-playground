@@ -21,7 +21,7 @@
     "js-base64": "^3.7.8",
     "mime": "^4.1.0",
     "monaco-editor": "^0.55.1",
-    "postcss": "^8.5.12",
+    "postcss": "^8.5.13",
     "postcss-scss": "^4.0.9",
     "postcss-value-parser": "^4.2.0",
     "react": "^19.2.5",
@@ -35,7 +35,7 @@
     "@types/react-dom": "^19.2.3",
     "@types/wicg-file-system-access": "^2023.10.7",
     "esbuild": "^0.28.0",
-    "eslint": "^10.2.1",
+    "eslint": "^10.3.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-react-hooks": "^7.1.1",
     "open": "^11.0.0",
@@ -50,7 +50,7 @@
   "license": "MIT",
   "overrides": {
     "monaco-editor": {
-      "dompurify": "^3.4.1"
+      "dompurify": "^3.4.2"
     }
   }
 }
