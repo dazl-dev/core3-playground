@@ -50,7 +50,7 @@
   "license": "MIT",
   "overrides": {
     "monaco-editor": {
-      "dompurify": "^3.4.3"
+      "dompurify": "^3.4.5"
     }
   }
 }
