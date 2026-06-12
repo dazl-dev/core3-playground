@@ -35,7 +35,7 @@
     "@types/react-dom": "^19.2.3",
     "@types/wicg-file-system-access": "^2023.10.7",
     "esbuild": "^0.28.1",
-    "eslint": "^10.4.1",
+    "eslint": "^10.5.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-react-hooks": "^7.1.1",
     "open": "^11.0.0",
@@ -50,7 +50,7 @@
   "license": "MIT",
   "overrides": {
     "monaco-editor": {
-      "dompurify": "^3.4.9"
+      "dompurify": "^3.4.10"
     }
   }
 }
