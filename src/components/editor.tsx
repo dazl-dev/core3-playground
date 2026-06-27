@@ -69,9 +69,11 @@ export const Editor = React.memo<Editor.Props>(
   }) => {
     const tabs = useMemo(
       () =>
-        openFiles?.map(
-          ({ filePath }): Tabs.Tab => ({ id: filePath, title: path.basename(filePath), tooltip: filePath }),
-        ) ?? [],
+        openFiles?.map(({ filePath }): Tabs.Tab => ({
+          id: filePath,
+          title: path.basename(filePath),
+          tooltip: filePath,
+        })) ?? [],
       [openFiles],
     );
     const openFile = openFiles && selectedFileIdx !== undefined ? openFiles[selectedFileIdx] : undefined;
