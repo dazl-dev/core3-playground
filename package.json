@@ -45,6 +45,10 @@
     "typescript": "~6.0.3",
     "typescript-eslint": "^8.62.1"
   },
+  "allowScripts": {
+    "@parcel/watcher": true,
+    "esbuild": true
+  },
   "keywords": [],
   "author": "Dazl",
   "license": "MIT",
