@@ -21,7 +21,7 @@
     "js-base64": "^3.8.1",
     "mime": "^4.1.0",
     "monaco-editor": "^0.55.1",
-    "postcss": "^8.5.18",
+    "postcss": "^8.5.19",
     "postcss-scss": "^4.0.9",
     "postcss-value-parser": "^4.2.0",
     "react": "^19.2.7",
@@ -43,7 +43,7 @@
     "sass": "^1.101.0",
     "type-fest": "^5.8.0",
     "typescript": "~6.0.3",
-    "typescript-eslint": "^8.63.0"
+    "typescript-eslint": "^8.64.0"
   },
   "allowScripts": {
     "@parcel/watcher": true,
