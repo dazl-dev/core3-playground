@@ -89,9 +89,9 @@ async function buildVendors() {
     alias,
     plugins: [
       {
-        name: "remove-typescript-contribution-file",
+        name: "remove-typescript-register-file",
         setup(build) {
-          build.onResolve({ filter: /language\/typescript\/monaco\.contribution\.js$/ }, (args) => ({
+          build.onResolve({ filter: /languages\/features\/typescript\/register\.js$/ }, (args) => ({
             path: args.path,
             namespace: "empty",
           }));
